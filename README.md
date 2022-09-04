@@ -1,6 +1,7 @@
 # chuwi
-Chuwi tablet hacks for modern distros 
+Chuwi tablet hacks for modern distros, working on my old Vi10 
 attached all sources  
+thanks for all original authors/posters and their work  
 
 BOOTLOADER PROBLEM [SOLVED]
 
@@ -12,7 +13,7 @@ TOUCHSCREEN PROBLEM
 
 https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md 
 
-insmod gives the signature error: 
+insmod gives the signature error:  
 gslx680_ts_acpi: loading out-of-tree module taints kernel.  
 gslx680_ts_acpi: module verification failed: signature and/or required key missing - tainting kernel  
 work in progress
