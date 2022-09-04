@@ -1,4 +1,4 @@
-#GRUB 32-BIT FIX FOR CHUWI VI10 TABLET ON MODERN DISTROS (tested on debian + ubuntu
+#GRUB 32-BIT FIX FOR CHUWI VI10 TABLET ON MODERN DISTROS (tested on debian + *buntu)
 #copy 32bit efi file in boot/efi usb dir and install normally
 #!/bin/sh
 #HOW TO BOOT MANUALLY:
