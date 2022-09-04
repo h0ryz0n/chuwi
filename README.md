@@ -1,0 +1,2 @@
+# chuwi
+Chuwi tablet hacks
