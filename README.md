@@ -18,6 +18,9 @@ gslx680_ts_acpi: loading out-of-tree module taints kernel.
 gslx680_ts_acpi: module verification failed: signature and/or required key missing - tainting kernel  
 work in progress 
 
+useful links:  
+
 https://github.com/onitake/gslx680-acpi  
 https://github.com/onitake/gsl-firmware  
 https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/vi10  
+https://github.com/rastersoft/gsl1680  
