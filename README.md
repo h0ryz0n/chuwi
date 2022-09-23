@@ -27,14 +27,15 @@ https://www.youtube.com/watch?app=desktop&v=hZLv6q38icw&fbclid=IwAR3C3hLueRoFb5x
 
 typical errors when compiling the gslx680 acpi driver:  
   
-$make all (make -n for debug output)  
+make all (make -n for debug output)  
 #ERROR: Skipping BTF generation for .../gslx680_ts_acpi.ko due to unavailability of vmlinux  
 #SOLUTION: copy /sys/kernel/btf/vmlinux to /usr/src/linux-headers-5.15.0-48-generic or ln  
 #ERROR: /bin/sh: 1: pahole: not found ... Error 127  
 #SOLUTION: apt install pahole (or dwarves)  
   
-$make install
+ake install  
 #ERROR: gslx680_ts_acpi: loading out-of-tree module taints kernel / module verification failed: signature and/or required key missing - tainting kernel  
-#SOLUTION: ignore
+#SOLUTION: ignore  
   
-work in progress
+work in progress  
+  
