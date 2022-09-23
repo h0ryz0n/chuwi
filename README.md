@@ -1,5 +1,6 @@
-## Chuwi
-Chuwi tablet hacks for modern distros, working on my old Vi10 
+## Chuwi tablet with modern Linux  
+
+Chuwi tablet hacks for modern distros, working on my old Vi10  
 attached all sources  
 thanks for all original authors/posters and their work  
   
@@ -37,5 +38,6 @@ ake install
 #ERROR: gslx680_ts_acpi: loading out-of-tree module taints kernel / module verification failed: signature and/or required key missing - tainting kernel  
 #SOLUTION: ignore  
   
+touch still doesn't work, maybe it's another silead model  
 work in progress  
   
