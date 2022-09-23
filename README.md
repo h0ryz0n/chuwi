@@ -20,7 +20,10 @@ work in progress
 
 useful links:  
 
+https://github.com/vncprado/chuwi-vi10/tree/master/drivers  
 https://github.com/onitake/gslx680-acpi  
 https://github.com/onitake/gsl-firmware  
 https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/vi10  
 https://github.com/rastersoft/gsl1680  
+https://www.youtube.com/watch?app=desktop&v=hZLv6q38icw&fbclid=IwAR3C3hLueRoFb5x8z8jtimZSobAfr77-FoW8Bxw64yYU7_7byrcE7BakYZM  
+
