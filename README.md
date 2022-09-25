@@ -4,13 +4,14 @@ a collection of Chuwi tablet hacks for modern distros
 thanks to all original authors/posters for their work  
   
 # BOOTLOADER 32bit PROBLEM [SOLVED] ##
-
 https://askubuntu.com/questions/755772/getting-32-bit-grub-to-automatically-bootubuntu  
 https://askubuntu.com/questions/1040519/installing-32bit-bootloader-on-64bit-ubuntu-solved  
 https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md 
+    
+# MIC & CAM NOT WORKING
+working    
   
-# TOUCHSCREEN PROBLEM
-
+# TOUCHSCREEN NOT WORKING  
 touch screen is a Silead GSL1680 (I have to verify since it still doesn't work)  
 you have to copy the silead firmware to /usr/firmware/ before attempting any install procedure  
 
@@ -27,13 +28,13 @@ https://www.youtube.com/watch?app=desktop&v=hZLv6q38icw&fbclid=IwAR3C3hLueRoFb5x
 
 typical errors when compiling the gslx680 acpi driver:  
   
-make all (make -n for debug output)  
+>make all (make -n for debug output)  
 #ERROR: Skipping BTF generation for .../gslx680_ts_acpi.ko due to unavailability of vmlinux  
 #SOLUTION: copy /sys/kernel/btf/vmlinux to /usr/src/linux-headers-5.15.0-48-generic or ln  
 #ERROR: /bin/sh: 1: pahole: not found ... Error 127  
 #SOLUTION: apt install pahole (or dwarves)  
   
-ake install  
+>make install  
 #ERROR: gslx680_ts_acpi: loading out-of-tree module taints kernel / module verification failed: signature and/or required key missing - tainting kernel  
 #SOLUTION: ignore  
   
