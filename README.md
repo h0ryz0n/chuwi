@@ -28,9 +28,15 @@ https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md
 # BATTERY PROBLEMS ##
 no recharge: check the cable
 %remaining wrong: complete discharge and complete recharge after OS installation
+    
+# WIFI NOT CONNECTING TO AP (DIRTY TRICK) ##
+can happen sometimes if you have usb devices connected (mouse/keyboard/usb pen/etc..) or bluetooth keyboard connected
+maybe it's a supply problem, I didn't investigated yet
+solution: trigger a wifi reconnection to the selected ap and quickly disconnect all devices
+as soon as it's connected to wifi ap, plug in all usb peripherals again
 
 # TOUCHSCREEN NOT WORKING  
-touch screen is a Silead GSL1680 (I have to verify since it still doesn't work)  
+touch screen is a Silead (GSL1680)
 you have to copy the silead firmware to /usr/firmware/ before attempting any install procedure  
 
 useful links:  
