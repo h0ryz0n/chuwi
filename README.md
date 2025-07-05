@@ -35,20 +35,20 @@ you have to copy the silead firmware to /usr/firmware/ before attempting any ins
 
 useful links:  
 
-https://github.com/sigboe/gslX68X (kernel space driver)
-https://github.com/rastersoft/gsl1680 (user space driver)
-https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/vi10   (vi10 silead firmware)
-
-various links
-
-https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md 
+https://github.com/sigboe/gslX68X (kernel space driver)  
+https://github.com/rastersoft/gsl1680 (user space driver)  
+https://github.com/onitake/gsl-firmware/tree/master/firmware/chuwi/vi10   (vi10 silead firmware)  
+  
+various links  
+  
+https://github.com/Manouchehri/vi8/blob/master/Ubuntu_instructions.md  
 https://github.com/vncprado/chuwi-vi10/tree/master/drivers  
 https://github.com/onitake/gslx680-acpi  
 https://github.com/onitake/gsl-firmware  
 https://github.com/rastersoft/gsl1680  
 https://www.youtube.com/watch?app=desktop&v=hZLv6q38icw&fbclid=IwAR3C3hLueRoFb5x8z8jtimZSobAfr77-FoW8Bxw64yYU7_7byrcE7BakYZM   
   
-
+  
 typical errors when compiling the gslx680 acpi driver:  
   
 >make all (make -n for debug output)  
